@@ -25,11 +25,11 @@ class InventoryLocation:
         
         data = {
             "APIKEY": APIKEY,
-            "mvInventoryLocation ": {
+            "mvInventoryLocation": {
                 "InventoryLocationAbbreviation": self.abbreviation,
                 "InventoryLocationName": self.name,
                 "InventoryLocationAddress": self.address,
             },
             "mvRecordAction": action
             }
-        return requests.post('https://api.megaventory.com/v2017a/Product/ProductUpdate', json=data)
+        return requests.post('https://api.megaventory.com/v2017a/InventoryLocation/InventoryLocationUpdate', json=data)
