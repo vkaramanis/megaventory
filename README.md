@@ -4,7 +4,7 @@ I started by taking a deep look into the available methods from the API's docume
 
 I thought that it would be much cleaner to spilt each request to a different class.
 Each class has almost the same logic. It starts by initializing the required variables. Then there is a setInfo function where we can adjust the variables.
-getInfo returns all the variables. in some classes i wrote a basic get function to demostrate how the class can expand its capabilities easily.
+getInfo returns all the variables. in some classes i wrote a basic get function to demostrate how the class can easily expand its capabilities.
 Lastly there is a post method where is submits the values to the database.
 
 Secret.py holds the apikey and for security reasons i erased it before commiting it to github.
